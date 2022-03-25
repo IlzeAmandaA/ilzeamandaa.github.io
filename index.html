@@ -1,17 +1,219 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Ilze Amanda Auzina, PhD Candidate</title>
-</head><body>
-<nav>
+---
+layout: default
+---
+
+<div class="container" align="center">  
+<div class="headline">
+        <p><span>Who Am I?</span></p>
+        <h2>Personal Details</h2>
+</div> 
+</div>
+
+<!-- Profile Section 
+____________________________________________
+_________________________________________ -->
+
+<div class="container">
+{% for profile in site.profile %}
+        <div class="row">
+            <div class="five columns" align="left">
+                <ul class="personal-details">
+
+<!-- Each of these refers to the YAML frontend of the profile.md file. You can create your own or edit these to suit -->
+
+                    <li><strong>Name </strong>{{ profile.name }}</li>
+                    <li><strong>Location </strong>{{ profile.location }}</li>
+                    <li><strong>Country </strong>{{ profile.country }}</li>
+                    <li><strong>Email </strong><a href="mailto:{{ profile.email }}?subject=Hi I saw your resume online">{{ profile.email }}</a></li>
+                    <li><strong>Twitter </strong><a href="https://twitter.com/{{ profile.twitter }}">{{ profile.twitter }}</a></li>
+                    <li><strong>Blog </strong><a href="{{ profile.blog }}">Wordpress</a>
+                    <li><strong>LinkedIn </strong> <a href="{{ profile.linkedin }}">Profile</a></li>
+                    <li><strong>GitHub </strong> <a href="{{ profile.github }}">Repositories</a></li>
+                    <li><strong>Flickr </strong><a href="{{ profile.flickr }}">Photos</a></li>
+                    <li><strong>Slideshare </strong><a href="{{ profile.slideshare }}">Presentations</a></li>
+                </ul>
+            </div>
+            
+            <div class="seven columns">
+        <h3>Professional Profile</h3>
+        {{ profile.content }}
+    </div>
+    </div>
+
+{% endfor %}
+</div>      
+    
+<section class="u-full-width" id="experience"> 
+
+<!-- Info below is the section heading and tagline -->
    
-<div >
-    <h1>Hi there!</h1>
-    <p> <a href="/about">Read more about my life...</a></p>
-</div><footer>
-<ul>
- <li><a href="mailto:ilze.amanda.auzina@gmail.com">email</a></li>
- <li><a href="https://github.com/IlzeAmandaA">Github</a></li>
-</ul>
-</footer></body>
-</html>
+    <div class="container" align="center">  
+    <div class="headline" align="center">
+        <p><span>Professional Background</span></p>
+        <h2>Work Experience</h2>
+    </div>
+    </div>
+
+
+    <div class="container">    
+{% for experience in site.experience reversed %}
+
+<!-- Info below is drawn in from the YAML front end -->
+        
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ experience.period }}</h2>
+                <h4 class="employer">{{ experience.employer }}</h4>
+        </div>
+        <div class="seven columns">
+            
+<!-- Info below is drawn in from the YAML title: and the content from the actual .md -->
+            
+        <h3>{{ experience.title }}</h3>
+            {{ experience.content }}
+    </div> 
+    </div>
+{% endfor %}
+        
+    </div>
+
+
+
+</section>    
+
+<section class="u-full-width" id="education"> 
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+            <p><span>Learning &amp; Training</span></p>
+            <h2>Education</h2>
+        </div>
+    </div>
+
+    
+    <div class="container">
+
+{% for education in site.education reversed %}
+    <div class="row">
+            <div class="five columns">
+                <h2 class="date">{{ education.period }}</h2>
+                <h4 class="institution">{{ education.institution }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ education.title }}</h3>
+        </div>
+    </div>
+ 
+{% endfor %}                
+    </div>
+</section>
+    
+<section class="u-full-width" id="awards"> 
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+            <p><span>Recognition</span></p>
+            <h2>Honours &amp; Awards</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+
+{% for award in site.award reversed %}
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ award.issued }}</h2>
+                <h4 class="institution">{{ award.issuer }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ award.title }}</h3>
+        </div>
+    </div>
+
+{% endfor %}    
+    </div>
+
+</section>
+    
+<section class="u-full-width" id="publications"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Research Papers</span></p>
+        <h2>Publications</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+{% for publications in site.publications reversed %}        
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ publications.published-date }}</h2>
+                <h4 class="institution">{{ publications.publisher }}</h4>
+            </div>
+         <div class="seven columns">
+            <h3>{{ publications.title }}</h3>
+        
+        <p class="authors">{{ publications.authors }}</p>
+            
+        {{ publications.content}}
+        <p><a href="{{ publications.link }}" class="button button-primary">Download</a></p>
+        </div>
+    </div>
+        
+{% endfor %}         
+ 
+        
+    </div>
+</section>
+    
+<section class="u-full-width" id="skills"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Areas of Expertise</span></p>
+        <h2>Skills</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+{% for skills in site.skills %}
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ skills.title }}</h2>
+            </div>
+         <div class="seven columns">
+            {{ skills.content }}
+        </div>
+    </div>
+        
+{% endfor %} 
+    </div>
+    </section>
+
+<section class="u-full-width" id="interests"> 
+
+    <div class="container" align="center">  
+        <div class="headline" align="center">
+        <p><span>Outside</span></p>
+        <h2>Interests</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+
+{% for interests in site.interests %}
+    <div class="row">  
+        <div class="five columns">
+                <h2 class="date">{{ interests.title }}</h2>
+            </div>
+         <div class="seven columns">
+            {{ interests.content }}
+        </div>
+    </div>
+
+{% endfor %} 
+        
+    </div>
+</section>
+
