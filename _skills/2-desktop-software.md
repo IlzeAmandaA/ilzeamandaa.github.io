@@ -1,7 +1,7 @@
 ---
 
-title: "Desktop Software"
+title: "Software"
 
 --- 
 
-Like the kinds of apps you can use (don't put Candy Crush.... not on a resume)
+Python (PyTorch, scikit-learn), R, Azure (DevOps, ML), Spark, SQL, SPARQL, GraphDB

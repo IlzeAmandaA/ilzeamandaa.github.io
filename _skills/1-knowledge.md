@@ -4,4 +4,4 @@ title: "Knowledge Areas"
 
 --- 
 
-You can put a bunch of stuff here.
+Machine Learning, Deep Learning, Bayesian Neural Networks, Approximate Bayesian Computation
