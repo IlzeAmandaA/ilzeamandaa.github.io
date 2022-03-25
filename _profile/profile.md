@@ -1,19 +1,15 @@
 ---
 
 layout: default
-name: Christian Surname
-location: "Somewhere"
-country: Nation
-email: "your.address@email.com"
-twitter: "@meontwitter"
-blog: "https://wordpress.com/"
-linkedin: "http://www.linkedin.com/"
-github: "https://github.com/"
-flickr: "https://www.flickr.com/"
-slideshare: "http://slideshare.net/"
+name: Ilze Amanda Auzina
+location: "Netherlands"
+email: "ilze.amanda.auzina@gmail.com"
+twitter: "@AmandaIlze"
+linkedin: "http://www.linkedin.com/ilze-amanda-auzina"
+github: "https://github.com/IlzeAmandaA"
 
 ---
 
-Create an elegant and customisable resume using Jekyll. Built to be simple to edit, update and modify, this Jekyll based site allows you to run your personal resume in public and for free on GitHub pages. Buy your own web domain and for about the cost of a (fancy) coffee you can display your professional identity on the web. 
+I am machine learning engineer currently pursuing a PhD at the Univerisity of Amsterdam. My research explores how to exploit ideas from Bayesian modeling to improve predictions in dynamical systems. 
 
-Liberate yourself from LinkedIn and other resume services by having your own space. Display what information you want and how you want it. You don't need a business card - get a URL!
+If you have any further questions about my work or perhaps you have some interesting ideas you would like to share, feel free to reach out! 

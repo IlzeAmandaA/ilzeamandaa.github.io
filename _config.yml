@@ -1,6 +1,6 @@
 # Site settings
 title: "Ilze Amanda Auzina"
-tagline: "Resume Builder"
+tagline: "PhD Candidate"
 description: "Welcome to the Resume Builder. You can create your own resume by adding a few markdown files, tweaking values in a a config file and changing some CSS"  
 baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
