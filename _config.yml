@@ -37,7 +37,7 @@ colour:
     text: 1a1a1a # sets text colour
     alternatestripe: 263248 # sets the alternate background stripe
     
-bgimage: "2-squawk_24394345845_o.jpg" # set hero image here. add file name and place in Images folder
+bgimage: "IMG_20220320_141208.jpg" # set hero image here. add file name and place in Images folder
 
 # Build settings
 markdown: kramdown
