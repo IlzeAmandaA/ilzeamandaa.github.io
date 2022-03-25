@@ -5,7 +5,7 @@ name: Ilze Amanda Auzina
 location: "Netherlands"
 email: "ilze.amanda.auzina@gmail.com"
 twitter: "@AmandaIlze"
-linkedin: "http://www.linkedin.com/ilze-amanda-auzina"
+linkedin: "http://www.linkedin.com/in/ilze-amanda-auzina"
 github: "https://github.com/IlzeAmandaA"
 
 ---
