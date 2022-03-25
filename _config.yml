@@ -1,0 +1,46 @@
+# Site settings
+title: "Ilze Amanda Auzina"
+tagline: "Resume Builder"
+description: "Welcome to the Resume Builder. You can create your own resume by adding a few markdown files, tweaking values in a a config file and changing some CSS"  
+baseurl: "/resume-builder" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+
+# Collections-builder
+collections:
+    award:
+        output: false
+        title: Award
+    education: 
+        output: false
+        title: Education
+    experience:
+        output: false
+        title: Experience
+    interests:
+        output: false
+        title: Interest
+    publications:
+        output: true
+        title: Publication
+    profile:
+        output: false
+        title: Profile
+    skills:
+        output: false
+        title: Skills
+
+# Colour Configuration
+
+colour: 
+    primary: FF9800 # sets the primary link colour
+    secondary: 7E8AA2 # sets the hover colour
+    text: 1a1a1a # sets text colour
+    alternatestripe: 263248 # sets the alternate background stripe
+    
+bgimage: "2-squawk_24394345845_o.jpg" # set hero image here. add file name and place in Images folder
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
