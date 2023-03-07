@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>i.a.auzina@uva.nl</p>
   #   <p>123 your address street</p>
@@ -17,7 +17,7 @@ news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi there, welcome to my personal page! I am a PhD candidate at the Univeristity of Amsterdam, in [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/) under the supervision of [Efstratios Gavves](https://www.egavves.com/). Currently, I am a visitng scholar in [Bethge Lab](https://bethgelab.org/) at Tübingen Univeristy working together with (Çağatay Yıldız)[https://cagatayyildiz.github.io]. Before that I worked together with [Jakub M. Tomczak](https://jmtomczak.github.io/) for my Master Thesis on [Approximate Bayesian Computation for discrete data](https://www.mdpi.com/1099-4300/23/3/312) at Vrije Univeristy, Amsterdam.
+Hi there, welcome to my personal page! I am a PhD candidate at the Univeristity of Amsterdam, in [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/) under the supervision of [Efstratios Gavves](https://www.egavves.com/). Currently, I am a visitng scholar in [Bethge Lab](https://bethgelab.org/) at Tübingen Univeristy working together with [Çağatay Yıldız](https://cagatayyildiz.github.io). Before that I worked together with [Jakub M. Tomczak](https://jmtomczak.github.io/) for my Master Thesis on [Approximate Bayesian Computation for discrete data](https://www.mdpi.com/1099-4300/23/3/312) at Vrije Universiteit, Amsterdam.
 
 My PhD research is focused on learning dynamical systems. In particular, we want to learn dynamics from high-dimensional data with physcial constraints that enforces the model to learn the _true_ dynamics, rather than overfitting the data. As a part of the process I am exploring the connections between dynamics and geometry. Broadly my research interests are 
 
