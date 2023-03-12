@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p>contact me:</p>
     <p>i.a.auzina@uva.nl</p>
-  #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
 news: false  # includes a list of news items
@@ -19,7 +19,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there, welcome to my personal page! I am a PhD candidate at the Univeristity of Amsterdam, in [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/) under the supervision of [Efstratios Gavves](https://www.egavves.com/). Currently, I am a visitng scholar in [Bethge Lab](https://bethgelab.org/) at Tübingen Univeristy working together with [Çağatay Yıldız](https://cagatayyildiz.github.io). Before that I worked together with [Jakub M. Tomczak](https://jmtomczak.github.io/) for my Master Thesis on [Approximate Bayesian Computation for discrete data](https://www.mdpi.com/1099-4300/23/3/312) at Vrije Universiteit, Amsterdam.
 
-My PhD research is focused on learning `dynamical systems`. In particular, we want to learn dynamics from high-dimensional data with physical constraints that enforces the model to learn the _true_ dynamics, rather than overfitting the data. As a part of the research process I am exploring the connections between dynamics and geometry. Broadly my research interests are 
+My PhD research is focused on learning `dynamical systems`. In particular, we want to learn dynamics from high-dimensional data with physical constraints that enforces the model to learn the _true_ dynamics, rather than overfitting the data. My work mainly focuses on two domains: (i) `object-centric dynamics` (learning trajectories from object/animal recordings), or (ii) `fluid dynamics` (climate model recordings). As part of the exploration process I am investigating the connections between dynamics and geometry. 
+
+Broadly my research interests are 
 
 - dynamical systems (ODEs/SDEs/PDEs)
 - gaussian processes
