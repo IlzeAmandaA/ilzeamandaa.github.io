@@ -18,12 +18,39 @@ purple { color:purple;font-weight:300;font-size:20px }
 <div class="container">
     <div class="row">
         <div class="col-md-2">
+            <p><grey> December 13 </grey> </p>
+        </div>
+        <div class="col-md-8">
+            <p><purple> Modulated Neural ODEs </purple></p>
+            <p><greys> Thirty-seventh Conference on Neural Information Processing Systems </greys></p>
+            <p><a target="_blank" class="btn btn-outline-secondary btn-sm mb-1" href="https://slides.com/iaa/modulated-nodes/fullscreen"> Slides </a></p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
             <p><grey> August 25 </grey> </p>
         </div>
         <div class="col-md-8">
             <p><purple> Learning Latent Dynamics with Informative Constraints</purple></p>
             <p><greys> ICIAM 2023: Randomization for simplified machine learning</greys></p>
             <p><a target="_blank" class="btn btn-outline-secondary btn-sm mb-1" href="https://slides.com/iaa/deck/fullscreen"> Slides </a></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <p><grey> July 21 </grey> </p>
+        </div>
+        <div class="col-md-8">
+            <p><purple> Modulated Neural ODEs </purple></p>
+            <p><greys> Boston Universtity Science Hour  </greys></p>
+            <p><a target="_blank" class="btn btn-outline-secondary btn-sm mb-1" href="https://slides.com/iaa/minimal/fullscreen"> Slides </a></p>
         </div>
     </div>
 </div>
