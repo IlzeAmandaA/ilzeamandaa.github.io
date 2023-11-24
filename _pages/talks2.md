@@ -1,12 +1,11 @@
 ---
 layout: page
-permalink: /talks_n/
+permalink: /talks2/
 title: invited talks v2
 description: talks that I have given or am yet to give
 nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
 <div class="talks">
 
 {%- for y in page.years %}
