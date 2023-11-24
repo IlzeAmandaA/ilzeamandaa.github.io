@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /talks/
-title: invited talks
+permalink: /talks_n/
+title: invited talks v2
 description: talks that I have given or am yet to give
 nav: true
 nav_order: 1
