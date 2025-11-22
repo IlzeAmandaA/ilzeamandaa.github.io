@@ -64,4 +64,4 @@ I enjoy research that combines:
 - Practical design: I value methods that are simple, robust, and usable - research that others can build on, deploy, or learn from without unnecessary complexity.
 - Deep understanding: I’m motivated by foundational questions: Is RL genuinely enabling novel reasoning abilities, or is it primarily sharpening what supervised training already provides? Answering questions like these helps us design better, more grounded learning systems.
 
-Ultimately, I aim to work on problems at the frontier — areas that matter but are often overlooked or underexplored in mainstream industry research. If our research interests intersect, feel free to reach out. I’m always happy to connect, collaborate, or discuss ideas.
+Ultimately, I aim to work on problems at the frontier — areas that matter but are often overlooked or underexplored in mainstream industry research. If our research interests intersect, feel free to reach out. I’m always happy to connect, collaborate, and discuss ideas.
