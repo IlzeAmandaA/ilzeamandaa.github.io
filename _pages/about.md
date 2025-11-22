@@ -31,7 +31,7 @@ _How can we successfully extend RL post-training beyond math and coding tasks to
 
 ### Research Focus 
 
-#### ML for Science & Dynamical Systems (Early PhD)
+#### Early PhD: ML for Science & Dynamical Systems
 
 In the early stages of my PhD, I explored machine learning for scientific modeling, particularly dynamical systems. I focused on teaching neural networks to infer latent dynamics from high-dimensional data while enforcing appropriate structural or physical constraints.
 
@@ -42,7 +42,7 @@ This included work on:
 
 -------
 
-#### Shift Toward RL Post-Training
+#### Current: RL Post-Training for LM
 
 As language models rapidly advanced, my work shifted toward reinforcement learning post-training — the stage where large models are shaped using reward models, preferences, and multi-step decision pipelines.
 
