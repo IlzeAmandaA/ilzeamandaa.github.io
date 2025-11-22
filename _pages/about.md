@@ -6,28 +6,62 @@ permalink: /
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: mountains.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>contact me:</p>
-    <p>i.a.auzina@uva.nl</p>
-  #   <p>Your City, State 12345</p>
+    <p>ilze.auzina@bethgelab.org</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi there, welcome to my personal page! I am a PhD candidate at the Univeristity of Amsterdam, in [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/) under the supervision of [Efstratios Gavves](https://www.egavves.com/) and [Sara Magliacane](https://saramagliacane.github.io/). I am also an [ELLIS PhD](https://ellis.eu/phd-postdoc) co-supervised by [Prof. Matthias Bethge](https://bethgelab.org/people/) at Tübingen University, Germany. Currently, I am working together with the amazing postdoc [Çağatay Yıldız](https://cagatayyildiz.github.io). Earlier I have worked together with [Jakub M. Tomczak](https://jmtomczak.github.io/) for my Master Thesis on [Approximate Bayesian Computation for discrete data](https://www.mdpi.com/1099-4300/23/3/312) at Vrije Universiteit, Amsterdam, which was nominated for best Master Thesis award. 
 
-My PhD research is focused on learning `dynamical systems`. In particular, we want to learn dynamics from high-dimensional data with physical constraints that enforces the model to learn the _true_ dynamics, rather than overfitting the data. My work mainly focuses on two domains: (i) `object-centric dynamics` (learning trajectories from object/animal recordings), or (ii) `fluid dynamics` (climate model recordings). As part of the exploration process I am investigating the connections between dynamics and geometry. 
+## About me 
+I am an [ELLIS PhD](https://ellis.eu/phd-postdoc) researcher in Machine Learning working with [Prof. Dr. Matthias Bethge](https://scholar.google.de/citations?user=0z0fNxUAAAAJ&hl=en) at Tübingen University, Germany. Previously, I worked with [Dr. Efstratios Gavves](https://www.egavves.com/) and [Dr. Sara Magliacane](https://saramagliacane.github.io/) at University of Amsterdam in [Video & Image Sense Lab](https://ivi.fnwi.uva.nl/vislab/). 
 
-Broadly my research interests are 
+Before starting my PhD I collaborated with [Dr. Jakub M. Tomczak](https://jmtomczak.github.io/) on my Master Thesis at Vrije Universiteit, Amsterdam on [Approximate Bayesian Computation for discrete data](https://www.mdpi.com/1099-4300/23/3/312), which was nominated for best Master Thesis award. 
 
-- dynamical systems (ODEs/SDEs/PDEs)
-- gaussian processes
-- generarive models 
-- geometry for dynamics
+Currently, my research is driven by a central question:
 
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+_How can we successfully extend RL post-training beyond math and coding tasks to open-ended problems?_
 
-<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+
+---------------------
+
+### Research Focus 
+
+#### ML for Science & Dynamical Systems (Early PhD)
+
+In the early stages of my PhD, I explored machine learning for scientific modeling, particularly dynamical systems. I focused on teaching neural networks to infer latent dynamics from high-dimensional data while enforcing appropriate structural or physical constraints.
+
+This included work on:
+- Neural ODEs and GP-ODEs combined with VAE-based latent dynamics
+- Modulated dynamics with explicit parameter control
+- Ensuring learned systems reflect true physical structure rather than overfitting observations
+
+-------
+
+#### Shift Toward RL Post-Training
+
+As language models rapidly advanced, my work shifted toward reinforcement learning post-training — the stage where large models are shaped using reward models, preferences, and multi-step decision pipelines.
+
+I currently work on:
+- Dense reward modeling and objective shaping (e.g., LoRA-based reward models, RLVN-style approaches)
+- Stability in RLHF pipelines, including normalization, clipping, and reward-scaling strategies
+- Open-ended and multi-step environments where reward sparsity requires principled training design
+
+Incentive-driven behaviors: how reward models influence the reasoning and decision patterns of LLMs
+
+My goal is to make RL post-training more stable, interpretable, and sample-efficient, and to understand how reinforcement signals interact with large neural models.
+
+-------
+
+### What Drives Me
+
+I enjoy research that combines:
+- Real-world impact: Agents will play an increasingly central role in how we work and interact with technology. We should design them in ways that genuinely improve human workflows, reasoning, and decision-making.
+- Practical design: I value methods that are simple, robust, and usable - research that others can build on, deploy, or learn from without unnecessary complexity.
+- Deep understanding: I’m motivated by foundational questions: Is RL genuinely enabling novel reasoning abilities, or is it primarily sharpening what supervised training already provides? Answering questions like these helps us design better, more grounded learning systems.
+
+Ultimately, I aim to work on problems at the frontier — areas that matter but are often overlooked or underexplored in mainstream industry research. If our research interests intersect, feel free to reach out. I’m always happy to connect, collaborate, or discuss ideas.
