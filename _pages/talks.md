@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 title: invited talks
 description: talks that I have given or am yet to give
-years: [2023]
+years: [2024,2023]
 nav: true
 nav_order: 2
 ---
