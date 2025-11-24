@@ -4,5 +4,5 @@ permalink: /cv/
 title: resume
 nav: true
 nav_order: 4
-cv_pdf: CV-Auzina.pdf
+cv_pdf: Resume-Auzina.pdf
 ---
