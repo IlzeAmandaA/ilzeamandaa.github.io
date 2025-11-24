@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: mountains.jpg
+  image: research.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>contact me:</p>
@@ -31,7 +31,7 @@ _How can we successfully extend RL post-training beyond math and coding tasks to
 
 ### Research Focus 
 
-#### Early PhD: ML for Science & Dynamical Systems
+#### Early PhD: ML for Science
 
 In the early stages of my PhD, I explored machine learning for scientific modeling, particularly dynamical systems. I focused on teaching neural networks to infer latent dynamics from high-dimensional data while enforcing appropriate structural or physical constraints.
 
@@ -44,24 +44,21 @@ This included work on:
 
 #### Current: RL Post-Training for LM
 
-As language models rapidly advanced, my work shifted toward reinforcement learning post-training — the stage where large models are shaped using reward models, preferences, and multi-step decision pipelines.
+Given the pivotal moment of DeepSeek-R1, my research focus shifted towards LM RL post-training. LM agents are becoming a crucial component of our daily lives, I want to be on the edge of science that helps to understand their capabilities and improve them for our daily lifes: 
 
 I currently work on:
-- Dense reward modeling and objective shaping (e.g., LoRA-based reward models, RLVN-style approaches)
-- Stability in RLHF pipelines, including normalization, clipping, and reward-scaling strategies
-- Open-ended and multi-step environments where reward sparsity requires principled training design
+- Dense reward modeling and objective shaping (e.g. intrinsic incentive guided exploration)
+- Stability in RLVR pipelines 
+- Open-ended and multi-step environments where reward sparsity poses major training problem
 
-Incentive-driven behaviors: how reward models influence the reasoning and decision patterns of LLMs
-
-My goal is to make RL post-training more stable, interpretable, and sample-efficient, and to understand how reinforcement signals interact with large neural models.
 
 -------
 
 ### What Drives Me
 
 I enjoy research that combines:
-- Real-world impact: Agents will play an increasingly central role in how we work and interact with technology. We should design them in ways that genuinely improve human workflows, reasoning, and decision-making.
-- Practical design: I value methods that are simple, robust, and usable - research that others can build on, deploy, or learn from without unnecessary complexity.
-- Deep understanding: I’m motivated by foundational questions: Is RL genuinely enabling novel reasoning abilities, or is it primarily sharpening what supervised training already provides? Answering questions like these helps us design better, more grounded learning systems.
+- Real-world impact: Inference with large LMs is expensive, can we obtain the same reasoning abilities via smaller models with RL or on policy distillation. 
+- Practical design: I value methods that are simple, robust, and usable. Research that others can build on, deploy, or learn from without unnecessary complexity.
+- Deep understanding: Is RL genuinely enabling novel reasoning abilities, or is it primarily sharpening what supervised training already provides? Answering questions like these helps us design better, more grounded learning systems.
 
 Ultimately, I aim to work on problems at the frontier — areas that matter but are often overlooked or underexplored in mainstream industry research. If our research interests intersect, feel free to reach out. I’m always happy to connect, collaborate, and discuss ideas.
