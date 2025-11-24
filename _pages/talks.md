@@ -5,7 +5,7 @@ title: invited talks
 description: talks that I have given or am yet to give
 years: [2023]
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <div class="talks">
